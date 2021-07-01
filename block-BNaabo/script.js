@@ -9,8 +9,17 @@ function logger(req, res, next) {
 
 app.use('/', logger);
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
   res.send('Welcome');
+});
+app.post('/json', (req, res) => {
+  res.send(req.body);
+});
+app.post('/contact', (req, res) => {
+  res.send(req.body);
 });
 
 app.listen(4000, () => {
