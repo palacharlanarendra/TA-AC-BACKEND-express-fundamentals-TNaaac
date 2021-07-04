@@ -9,10 +9,20 @@ Q. Create a package.json file manually with
 Q. Create a package.json with using npm init script with above content
 
 - add express package with exact version of 4.16.4
+
+```js
+npm install express@4.16.4
+```
+
 - upgrade it to the latest version
+
+```js
+npm i express --save
+```
 
 Q. Create a basic express server with 2 routes
 
+```
 - add package.json
 - install express
 - setup an express server
@@ -55,3 +65,4 @@ Q. Modify above to include error handler middleware
 ### Note:-
 
 Remember to add error handler middlewares after handling all the routes in the application
+```
