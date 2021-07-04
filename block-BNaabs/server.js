@@ -16,10 +16,7 @@ app.get('/users/:username', (req, res) => {
   res.send(username);
 });
 app.post('/new', (req, res) => {
-  console.log(req.body);
-  res.setHeader('Content-Type', 'text/html');
-  res.end(`<h2>${req.body.name}</h2>
-            <h2>${req.body.email}</h2>`);
+  res.json(req.body);
 });
 
 app.listen(3000, () => {
