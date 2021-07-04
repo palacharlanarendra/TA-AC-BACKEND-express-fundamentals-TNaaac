@@ -15,8 +15,8 @@ app.use((req, res, next) => {
   res.send('Page not Found');
 });
 
-app.use((req, res, next) => {
-  res.send('Page Not Found');
+app.use((err, req, res, next) => {
+  res.status(500).send(err);
 });
 
 app.listen(3000, () => {
