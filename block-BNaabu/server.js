@@ -1,22 +1,22 @@
 var express = require('express');
-
+var logger = require('morgan');
 var app = express();
-app.use((req, res, next) => {
-  console.log(req.url);
-  if (req.url === '/admin') {
-    return next('Unauthorized');
-  }
 
-  next();
+app.use('/admin', (req, re, next) => {
+  next('Unauthorized to access');
 });
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.send('Welcome');
 });
 app.get('/about', (req, res) => {
-  res.sendFile(__dirname + '/about.html');
+  res.send('About');
 });
 app.use((req, res, next) => {
   res.send('Page not Found');
+});
+
+app.use((req, res, next) => {
+  res.send('Page Not Found');
 });
 
 app.listen(3000, () => {
