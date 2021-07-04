@@ -11,3 +11,5 @@ Q. Create a middleware which is similar to express.json()
 - parses json data and puts it into `req.body`
 
 Q. Create a middleware which functions similar to express.static()
+
+    new Date().toLocaleTimeString('en-GB', { hour:"numeric", minute: "numeric"});
