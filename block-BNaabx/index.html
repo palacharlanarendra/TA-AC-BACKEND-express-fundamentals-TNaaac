@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2bbf3cce3b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Flexor | Assignment - Checkpoint 4</title>
+  </head>
+  <body>
+    <header class="header padding-1">
+      <div class="container flex-general">
+        <a class="brand" href="index.html">Flexor</a>
+        <label class="bars" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" type="checkbox" />
+        <nav class="nav-bar">
+          <ul class="flex nav md-column">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown-box">
+              <a href="#">Drop Down<i class="fas fa-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="deepdropdown-box">
+                  <a href="#"
+                    >Deep Drop Down <i class="fas fa-chevron-right"></i
+                  ></a>
+                  <ul class="deepdropdown-menu">
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+                <li><a href="#">Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+          <article
+            class="
+              heading-section
+              flex flex-direction-column flex-100
+              justify-content-center
+            "
+          >
+            <h1 class="hero-heading">Welcome to Flexor</h1>
+            <p class="hero-para">
+              We are team of talanted designers making websites with Bootstrap
+            </p>
+            <div class="whole-button">
+              <a class="round flex-all-center">
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </a>
+              <a class="button">Get Started</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- article section -->
+      <section class="article-section margin-clearance">
+        <div class="container flex-general flex-wrap padding-bottom-2">
+          <article class="article-col-1 flex-34 align-self-stretch">
+            <h2 class="banner-heading padding-bottom-2">
+              Why Choose Flexor for your company website?
+            </h2>
+            <p class="common-para padding-bottom-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Asperiores dolores sed et. Tenetur quia eos. Autem tempore
+              quibusdam vel necessitatibus optio ad corporis.
+            </p>
+            <div class="button-box">
+              <a href="#" class="button button-primary"
+                >Learn More
+                <span><i class="chevron fas fa-chevron-right"></i></span
+              ></a>
+            </div>
+          </article>
+          <article class="article-col align-self-center padding-5 flex-21">
+            <div class="icon-box padding-bottom-2">
+              <i class="fas fa-file-invoice"></i>
+            </div>
+            <h2 class="padding-bottom-2 article-common-heading">
+              Corporis voluptates sit
+            </h2>
+            <p class="common-para">
+              Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+              laboris nisi ut aliquip
+            </p>
+          </article>
+          <article class="article-col align-self-center padding-5 flex-21">
+            <div class="icon-box padding-bottom-2">
+              <i class="fas fa-cube"></i>
+            </div>
+            <h2 class="padding-bottom-2 article-common-heading">
+              Ullamco laboris ladore
+            </h2>
+            <p class="common-para">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt
+            </p>
+          </article>
+          <article class="article-col align-self-center padding-5 flex-21">
+            <div class="icon-box padding-bottom-2">
+              <i class="far fa-images"></i>
+            </div>
+            <h2 class="padding-bottom-2 article-common-heading">
+              Labore consequatur
+            </h2>
+            <p class="common-para">
+              Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores
+              omnis facere
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- about section -->
+      <section class="about-section padding-3">
+        <div class="container flex-general flex-wrap">
+          <div class="about-image flex-40 align-self-center">
+            <img src="./media/about-img.jpg" alt="cafeteria" />
+          </div>
+          <article class="about-article flex-55 align-self-center">
+            <p class="about">About us</p>
+            <h2 class="about-article-heading">
+              Enim quis est voluptatibus aliquid consequatur fugiat
+            </h2>
+            <p class="common-para">
+              Esse voluptas cumque vel exercitationem. Reiciendis est hic
+              accusamus. Non ipsam et sed minima temporibus laudantium. Soluta
+              voluptate sed facere corporis dolores excepturi. Libero laboriosam
+              sint et id nulla tenetur. Suscipit aut voluptate.
+            </p>
+            <aside class="flex about-col-1">
+              <div>
+                <div
+                  class="
+                    center-logo
+                    flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+              </div>
+              <div class="text-box">
+                <h3 class="text-box-heading">Lorem Ipsum</h3>
+                <p class="common-para">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
+            </aside>
+            <aside class="flex about-col-1">
+              <div>
+                <div
+                  class="
+                    gift-box
+                    center-logo
+                    flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-gift"></i>
+                </div>
+              </div>
+              <div class="text-box">
+                <h3 class="text-box-heading">Nemo Enim</h3>
+                <p class="common-para">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
+            </aside>
+            <aside class="flex about-col-1">
+              <div>
+                <div
+                  class="
+                    atom-box
+                    center-logo
+                    flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <i class="fas fa-atom"></i>
+                </div>
+              </div>
+              <div class="text-box">
+                <h3 class="text-box-heading">Dine Pad</h3>
+                <p class="common-para">
+                  Explicabo est voluptatum asperiores consequatur magnam. Et
+                  veritatis odit. Sunt aut deserunt minus aut eligendi omnis
+                </p>
+              </div>
+            </aside>
+          </article>
+        </div>
+      </section>
+      <!-- clients section -->
+      <section class="clients-section padding-3">
+        <div class="container flex-general">
+          <div class="clients-col">
+            <img src="./media/clients/client-1.png" alt="mybob" />
+          </div>
+          <div class="clients-col">
+            <img src="./media/clients/client-2.png" alt="belimo" />
+          </div>
+          <div class="clients-col small-hide">
+            <img src="./media/clients/client-3.png" alt="life groups" />
+          </div>
+          <div class="clients-col small-hide">
+            <img src="./media/clients/client-4.png" alt="lilly" />
+          </div>
+          <div class="clients-col medium-hide">
+            <img src="./media/clients/client-5.png" alt="citrus" />
+          </div>
+          <div class="clients-col medium-hide">
+            <img src="./media/clients/client-6.png" alt="trustly" />
+          </div>
+        </div>
+      </section>
+      <!-- services section -->
+      <section class="services-section padding-3 text-align-center">
+        <div class="container">
+          <div>
+            <h2 class="common-heading padding-bottom-2">Services</h2>
+            <p class="common-para padding-bottom-2">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <div class="services-article-section flex-general flex-wrap">
+            <article class="article-col padding-bottom-3 flex-30 sm-flex-100">
+              <div
+                class="
+                  services-icon-box
+                  flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <h2 class="padding-1 article-common-heading">LOREM IPSUM</h2>
+              <p class="common-para">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </article>
+            <article class="article-col padding-bottom-3 flex-30 sm-flex-100">
+              <div
+                class="
+                  services-icon-box
+                  flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <i class="fas fa-tasks"></i>
+              </div>
+              <h2 class="padding-1 article-common-heading">DOLOR SITEMA</h2>
+              <p class="common-para">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </article>
+            <article class="article-col padding-bottom-3 flex-30 sm-flex-100">
+              <div
+                class="
+                  services-icon-box
+                  flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <i class="fas fa-file-invoice"></i>
+              </div>
+              <h2 class="padding-1 article-common-heading">
+                SED UT PERSPICIATIS
+              </h2>
+              <p class="common-para">
+                Duis aute irure dolor in reprehenderit irure dolor in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur
+              </p>
+            </article>
+            <article class="article-col padding-bottom-3 flex-30 sm-flex-100">
+              <div
+                class="
+                  services-icon-box
+                  flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <i class="fas fa-binoculars"></i>
+              </div>
+              <h2 class="padding-1 article-common-heading">MAGNI DOLORES</h2>
+              <p class="common-para">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+              </p>
+            </article>
+            <article class="article-col padding-bottom-3 flex-30 sm-flex-100">
+              <div
+                class="
+                  services-icon-box
+                  flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <i class="far fa-chart-bar"></i>
+              </div>
+              <h2 class="padding-1 article-common-heading">NEMO ENIM</h2>
+              <p class="common-para">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque
+              </p>
+            </article>
+            <article class="article-col padding-bottom-3 flex-30 sm-flex-100">
+              <div
+                class="
+                  services-icon-box
+                  flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <i class="far fa-calendar-alt"></i>
+              </div>
+              <h2 class="padding-1 article-common-heading">EIUSMOD TEMPOR</h2>
+              <p class="common-para">
+                Et harum quidem rerum facilis est et expedita distinctio. Nam
+                libero tempore, cum soluta nobis est eligendi
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- value section -->
+      <section class="value-section padding-2">
+        <div class="container flex flex-general flex-wrap">
+          <div class="value-image-box flex-49 sm-flex-100">
+            <img src="./media/values-1.jpg" alt="girl and ipad" />
+            <article class="value-article">
+              <div class="value-heading-box">
+                <h2 class="value-heading">Our Mission</h2>
+              </div>
+              <p class="common-para padding-bottom-1">
+                Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor ut
+                labore et dolore magna aliqua.
+              </p>
+              <a href="#" class="read-more common-para padding-bottom-1"
+                ><span><i class="fas fa-arrow-right"></i></span>READ MORE</a
+              >
+            </article>
+          </div>
+          <div class="value-image-box flex-49 sm-flex-100">
+            <img src="./media/values-2.jpg" alt="coffee cup" />
+            <article class="value-article">
+              <div class="value-heading-box">
+                <h2 class="value-heading">Our Plan</h2>
+              </div>
+              <p class="common-para padding-bottom-1">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                doloremque laudantium, totam rem.
+              </p>
+              <a href="#" class="read-more common-para padding-bottom-1"
+                ><span><i class="fas fa-arrow-right"></i></span>READ MORE</a
+              >
+            </article>
+          </div>
+          <div class="value-image-box flex-49 sm-flex-100">
+            <img src="./media/values-3.jpg" alt="smartphone" />
+            <article class="value-article">
+              <div class="value-heading-box">
+                <h2 class="value-heading">Our Vision</h2>
+              </div>
+              <p class="common-para padding-bottom-1">
+                Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit,
+                sed quia magni dolores.
+              </p>
+              <a href="#" class="read-more common-para padding-bottom-1"
+                ><span><i class="fas fa-arrow-right"></i></span>READ MORE</a
+              >
+            </article>
+          </div>
+          <div class="value-image-box flex-49 sm-flex-100">
+            <img src="./media/values-4.jpg" alt="developer" />
+            <article class="value-article">
+              <div class="value-heading-box">
+                <h2 class="value-heading">Our Care</h2>
+              </div>
+              <p class="common-para padding-bottom-1">
+                Nostrum eum sed et autem dolorum perspiciatis. Magni porro
+                quisquam laudantium voluptatem.
+              </p>
+              <a href="#" class="read-more common-para padding-bottom-1"
+                ><span><i class="fas fa-arrow-right"></i></span>READ MORE</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="testimonal-section text-align-center">
+        <div class="container">
+          <article class="testimonal-article">
+            <div class="testimonal-image">
+              <img src="./media/testimonials/testimonials-1.jpg" />
+            </div>
+            <h2 class="value-heading">John Larson</h2>
+            <p class="value-subheading padding-bottom-2">Entrepreneur</p>
+            <blockquote
+              cite="https://bootstrapmade.com/demo/Flexor/"
+              class="quote"
+            >
+              <i class="fas fa-quote-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+              veniam tempor noster veniam enim culpa labore duis sunt culpa
+              nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+              quid.
+              <i class="fas fa-quote-right"></i>
+            </blockquote>
+          </article>
+        </div>
+      </section>
+      <section class="portfolio-section padding-3 text-align-center">
+        <div class="container">
+          <div>
+            <h2 class="common-heading">Portfolio</h2>
+            <p class="common-para padding-2">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <div>
+            <nav
+              class="
+                flex
+                align-items-center
+                justify-content-center
+                portfolio-btn-group
+                padding-bottom-2
+              "
+            >
+              <li><a class="portfolio-btn btn-active" href="#">ALL</a></li>
+              <li><a class="portfolio-btn" href="#">APP</a></li>
+              <li><a class="portfolio-btn" href="#">CARD</a></li>
+              <li><a class="portfolio-btn" href="#">WEB</a></li>
+            </nav>
+          </div>
+          <div class="flex-general flex-wrap">
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-1.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>App 1</h3>
+                  <p class="white-sub-heading">App</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-2.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>Web 3</h3>
+                  <p class="white-sub-heading">Web</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-3.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>App 2</h3>
+                  <p class="white-sub-heading">App</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-4.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>Card 2</h3>
+                  <p class="white-sub-heading">Card</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-5.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>Web 2</h3>
+                  <p class="white-sub-heading">Web</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-6.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>App 3</h3>
+                  <p class="white-sub-heading">App</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-7.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>Card 1</h3>
+                  <p class="white-sub-heading">Card</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-8.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>Card 3</h3>
+                  <p class="white-sub-heading">Card</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+            <div class="portfolio-image flex-32">
+              <img src="./media/portfolio/portfolio-9.jpg" />
+              <article class="white-banner flex-general">
+                <div>
+                  <h3>Web 3</h3>
+                  <p class="white-sub-heading">Web</p>
+                </div>
+                <div class="white-banner-links">
+                  <span
+                    ><i class="fas fa-plus"></i><i class="fas fa-link"></i
+                  ></span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team-section padding-3 text-align-center">
+        <div class="container">
+          <div>
+            <h2 class="common-heading">Team</h2>
+            <p class="common-para padding-2">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <article
+            class="
+              team-picture-section
+              flex-general
+              text-align-center
+              flex-wrap
+            "
+          >
+            <div class="team-col-1 flex-24 text-align-center">
+              <div class="team-col-image">
+                <img src="./media/team/team-1.jpg" alt="walter white" />
+              </div>
+              <div class="social-media-links">
+                <a href="https://www.twitter.com"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.facebook.com"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="team-text">
+                <h2 class="team-heading">Walter White</h2>
+                <p class="team-para">Chief Executive Officer</p>
+              </div>
+            </div>
+            <div class="team-col-1 flex-24">
+              <div class="team-col-image">
+                <img src="./media/team/team-2.jpg" alt="Sarah Jhonson" />
+              </div>
+              <div class="social-media-links">
+                <a href="https://www.twitter.com"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.facebook.com"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="team-text">
+                <h2 class="team-heading">Sarah Jhonson</h2>
+                <p class="team-para">Production Manager</p>
+              </div>
+            </div>
+            <div class="team-col-1 flex-24">
+              <div class="team-col-image">
+                <img src="./media/team/team-3.jpg" alt="walter white" />
+              </div>
+              <div class="social-media-links">
+                <a href="https://www.twitter.com"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.facebook.com"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="team-text">
+                <h2 class="team-heading">William Anderson</h2>
+                <p class="team-para">CTO</p>
+              </div>
+            </div>
+            <div class="team-col-1 flex-24">
+              <div class="team-col-image">
+                <img src="./media/team/team-4.jpg" alt="walter white" />
+              </div>
+              <div class="social-media-links">
+                <a href="https://www.twitter.com"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="https://www.facebook.com"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="team-text">
+                <h2 class="team-heading">Amanda Jepson</h2>
+                <p class="team-para">Accountant</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="pricing-section padding-3 text-align-center">
+        <div class="container">
+          <div>
+            <h2 class="common-heading">Pricing</h2>
+            <p class="common-para padding-2">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <article class="pricing-article-section flex-general flex-wrap">
+            <div class="pricing-col-1 flex-24">
+              <div class="price-tag">Free</div>
+              <p class="dollar-value">
+                <sup class="dollar">$</sup>
+                <span class="term">0</span>
+                <span class="lite">/ month</span>
+              </p>
+              <div>
+                <ul class="features">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="line-through">Pharetra massa</li>
+                  <li class="line-through">Massa ultricies mi</li>
+                </ul>
+              </div>
+              <div class="price-tag">
+                <a href="#" class="price-tag-button">Buy Now</a>
+              </div>
+            </div>
+            <div class="pricing-col-1 flex-24">
+              <div class="price-tag price-tag-active">Business</div>
+              <p class="dollar-value">
+                <sup class="dollar">$</sup>
+                <span class="term">19</span>
+                <span class="lite">/ month</span>
+              </p>
+              <div>
+                <ul class="features">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li>Pharetra massa</li>
+                  <li class="line-through">Massa ultricies mi</li>
+                </ul>
+              </div>
+              <div class="price-tag">
+                <a href="#" class="price-tag-button">Buy Now</a>
+              </div>
+            </div>
+            <div class="pricing-col-1 flex-24">
+              <div class="price-tag">Developer</div>
+              <p class="dollar-value">
+                <sup class="dollar">$</sup>
+                <span class="term">29</span>
+                <span class="lite">/ month</span>
+              </p>
+              <div>
+                <ul class="features">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="line-through">Pharetra massa</li>
+                  <li class="line-through">Massa ultricies mi</li>
+                </ul>
+              </div>
+              <div class="price-tag">
+                <a href="#" class="price-tag-button">Buy Now</a>
+              </div>
+            </div>
+            <div class="pricing-col-1 pricing-box-4 flex-24">
+              <div class="price-tag">Ultimate</div>
+              <span class="advanced">Advanced</span>
+              <p class="dollar-value">
+                <sup class="dollar">$</sup>
+                <span class="term">49</span>
+                <span class="lite">/ month</span>
+              </p>
+              <div>
+                <ul class="features">
+                  <li>Aida dere</li>
+                  <li>Nec feugiat nisl</li>
+                  <li>Nulla at volutpat dola</li>
+                  <li class="line-through">Pharetra massa</li>
+                  <li class="line-through">Massa ultricies mi</li>
+                </ul>
+              </div>
+              <div class="price-tag">
+                <a href="#" class="price-tag-button">Buy Now</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="faq-section padding-3 text-align-center">
+        <div class="container">
+          <div>
+            <h2 class="common-heading">F.A.Q</h2>
+            <p class="common-para padding-2">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <div class="faq-article-section flex flex-direction-column">
+            <article class="faq-full-bg faq-padding-new">
+              <div class="flex-general active-text-color">
+                <span
+                  ><a><i class="far fa-question-circle"></i></a>
+                  Non consectetur a erat nam at lectus urna duis?
+                </span>
+                <span><i class="fas fa-chevron-up"></i></span>
+              </div>
+              <p class="common-para">
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </article>
+            <article class="faq-full-bg">
+              <div class="flex-general bold-heading">
+                <span class="faq-padding"
+                  ><a><i class="far fa-question-circle"></i></a>
+                  Feugiat scelerisque varius morbi enim nunc?
+                </span>
+                <span><i class="fas fa-chevron-down"></i></span>
+              </div>
+            </article>
+            <article class="faq-full-bg">
+              <div class="flex-general bold-heading">
+                <span class="faq-padding"
+                  ><a><i class="far fa-question-circle"></i></a>
+                  Dolor sit amet consectetur adipiscing elit?
+                </span>
+                <span><i class="fas fa-chevron-down"></i></span>
+              </div>
+            </article>
+            <article class="faq-full-bg">
+              <div class="flex-general bold-heading">
+                <span class="faq-padding"
+                  ><a><i class="far fa-question-circle"></i></a>
+                  Tempus quam pellentesque nec nam aliquam sem et tortor
+                  consequat?
+                </span>
+                <span><i class="fas fa-chevron-down"></i></span>
+              </div>
+            </article>
+            <article class="faq-full-bg">
+              <div class="flex-general bold-heading">
+                <span class="faq-padding"
+                  ><a><i class="far fa-question-circle"></i></a>
+                  Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                  turpis nunc eget lorem dolor?
+                </span>
+                <span><i class="fas fa-chevron-down"></i></span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section padding-3 text-align-center">
+        <div class="container">
+          <div>
+            <h2 class="common-heading">Contact</h2>
+            <p class="common-para padding-2">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <div class="combined-section">
+            <section class="contact-article-section flex-general flex-wrap">
+              <article class="contact-col-1 flex flex-32 md-flex-100">
+                <div class="flex align-items-center flex-20">
+                  <div
+                    class="
+                      center-logo
+                      flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                </div>
+                <div class="margin-left flex-60">
+                  <h2 class="contact-heading">Our Address</h2>
+                  <address>A108 Adam Street, New York, NY 535022</address>
+                </div>
+              </article>
+              <article
+                class="contact-col-1 flex flex-32 md-flex-100 padding-1-2"
+              >
+                <div class="flex align-items-center flex-20">
+                  <div
+                    class="
+                      center-logo
+                      flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="margin-left flex-60">
+                  <h2 class="contact-heading">Email Us</h2>
+                  <address>
+                    <p>info@example.com</p>
+                    <p>contact@example.com</p>
+                  </address>
+                </div>
+              </article>
+              <article
+                class="contact-col-1 flex flex-32 md-flex-100 padding-1-2"
+              >
+                <div class="flex align-items-center flex-20">
+                  <div
+                    class="
+                      center-logo
+                      flex
+                      justify-content-center
+                      align-items-center
+                    "
+                  >
+                    <i class="fas fa-phone-volume"></i>
+                  </div>
+                </div>
+                <div class="margin-left flex-60">
+                  <h2 class="contact-heading">Call Us</h2>
+                  <address>
+                    <p>+1 5589 55488 55</p>
+                    <p>+1 6678 254445 41</p>
+                  </address>
+                </div>
+              </article>
+            </section>
+            <section class="form-section">
+              <form class="form flex-general flex-wrap">
+                <input
+                  type="name"
+                  placeholder="Your Name"
+                  class="flex-48 name"
+                />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="flex-48 email"
+                />
+                <input
+                  type="name"
+                  placeholder="Subject"
+                  class="flex-100 subject"
+                />
+                <textarea
+                  class="text-area"
+                  rows="10"
+                  placeholder="Message"
+                ></textarea>
+                <input type="Submit" value="Send Message" class="form-btn" />
+              </form>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer-primary-section padding-3">
+        <div class="container flex-general flex-wrap">
+          <div class="footer-col-1 flex-16 align-self-stretch md-flex-48">
+            <h2 class="brand-footer">Flexor</h2>
+            <address>
+              A108 Adam Street<br />
+              New York, NY 535022<br />
+              United States
+            </address>
+            <ul class="nav-1">
+              <li class="phone"><span>Phone:</span> +1 5589 55488 55</li>
+              <li class="email"><span>Email:</span> info@example.com</li>
+            </ul>
+          </div>
+          <nav
+            class="
+              footer-col-common footer-col-2
+              flex-16
+              align-self-stretch
+              md-flex-48
+            "
+          >
+            <h2>Useful Links</h2>
+            <ul>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Home</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>About Us</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Services</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Terms of
+                  service</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Privacy
+                  policy</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav
+            class="
+              footer-col-common footer-col-3
+              flex-16
+              align-self-stretch
+              md-flex-48
+            "
+          >
+            <h2>Our Services</h2>
+            <ul>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Web
+                  Design</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Web
+                  Development</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Product
+                  Management</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Marketing</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fas fa-chevron-right"></i></span>Graphic
+                  Design</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer-col-4 flex-32 align-self-stretch md-flex-48">
+            <h2>Join Our Newsletter</h2>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
+            <div class="search-bar flex justify-content-sp-btw">
+              <input class="search-in-bar flex-80" />
+              <a class="search-btn flex-24">Subscribe</a>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="footer-secondary-section padding-1">
+        <div class="flex-general container footer-flex-box footer-text-center">
+          <div>
+            <small class="small"
+              >&copy; Copyright <span>Flexor.</span> All Rights Reserved</small
+            >
+            <p class="footer-secondary-para">
+              Designed by <a href="#" class="active">BootstrapMade</a>
+            </p>
+          </div>
+          <nav>
+            <ul class="flex-general padding-1">
+              <li class="block">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="block">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="block">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="block">
+                <a href="#"><i class="fab fa-skype"></i></a>
+              </li>
+              <li class="block">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
